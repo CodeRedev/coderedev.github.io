@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+    <script src="https://kit.fontawesome.com/d37231be1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeRed</title>
+    <style>
+      .link-card { transition: all 0.2s; }
+      .link-card:hover { border-color: var(--link-color); background-color: var(--link-bg); }
+      .link-card .link-icon { transition: color 0.2s; }
+      .link-card:hover .link-icon { color: var(--link-color); }
+      .link-card .link-arrow { transition: transform 0.2s; }
+      .link-card:hover .link-arrow { transform: translateX(0.125rem); }
+    </style>
+  </head>
+  <body class="min-h-screen bg-zinc-950 font-sans antialiased">
+    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-gradient-to-b from-cyan-500/15 to-transparent blur-3xl pointer-events-none"></div>
+
+    <div class="relative py-16 px-4 sm:px-6">
+      <div class="w-full max-w-md mx-auto space-y-8">
+
+        <div class="text-center space-y-4">
+          <div class="relative inline-block">
+            <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-cyan-100 to-cyan-100 p-[2px]">
+              <div class="w-full h-full rounded-full bg-zinc-900 flex items-center justify-center overflow-hidden">
+                <img src="assets/images/logo.png" alt="Logo" class="object-contain" />
+              </div>
+            </div>
+            <div class="absolute bottom-0.5 right-0.5 w-5 h-5 bg-cyan-400 rounded-full border-2 border-zinc-950"></div>
+          </div>
+
+          <div>
+            <h1 class="text-2xl font-semibold text-white tracking-tight">CodeRed</h1>
+            <p class="text-zinc-500 mt-1">FiveM Developer & Creator</p>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <p class="text-zinc-400 text-sm leading-relaxed">
+            Passionate FiveM developer creating high-quality custom content. Specializing in vehicles, clothing, scripts, and modern UI design for immersive server experiences.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-2">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900/20 border border-zinc-800 rounded-full text-sm text-zinc-400 hover:text-zinc-300 hover:border-zinc-700 transition-colors">
+            <i class="fa-solid fa-car"></i>
+            <span>Custom Vehicle Development</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900/20 border border-zinc-800 rounded-full text-sm text-zinc-400 hover:text-zinc-300 hover:border-zinc-700 transition-colors">
+            <i class="fa-solid fa-tshirt"></i>
+            <span>Clothing & EUP Modding</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900/20 border border-zinc-800 rounded-full text-sm text-zinc-400 hover:text-zinc-300 hover:border-zinc-700 transition-colors">
+            <i class="fa-solid fa-gear"></i>
+            <span>Custom FiveM Scripts</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900/20 border border-zinc-800 rounded-full text-sm text-zinc-400 hover:text-zinc-300 hover:border-zinc-700 transition-colors">
+            <i class="fa-solid fa-paint-brush"></i>
+            <span>UI/UX Design</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900/20 border border-zinc-800 rounded-full text-sm text-zinc-400 hover:text-zinc-300 hover:border-zinc-700 transition-colors">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Code Optimization</span>
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-zinc-900/20 border border-zinc-800 rounded-full text-sm text-zinc-400 hover:text-zinc-300 hover:border-zinc-700 transition-colors">
+            <i class="fa-solid fa-wrench"></i>
+            <span>Server Integration</span>
+          </span>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="flex-1 h-px bg-zinc-800"></div>
+          <span class="text-zinc-600 text-xs uppercase tracking-wider">Connect</span>
+          <div class="flex-1 h-px bg-zinc-800"></div>
+        </div>
+
+        <div class="space-y-2">
+          <a
+            href="https://discord.gg/SjUpdASBxV"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group link-card flex items-center gap-3 px-4 py-3 rounded-xl bg-zinc-900/20 border border-zinc-800 hover:bg-zinc-800/70 hover:border-zinc-700"
+            style="--link-color:#5865F2; --link-bg:rgba(88, 101, 242, 0.08);"
+          >
+            <div class="text-zinc-500 link-icon">
+              <i class="fa-brands fa-discord"></i>
+            </div>
+            <span class="text-zinc-300 text-sm flex-1">Discord Community</span>
+            <svg class="w-4 h-4 text-zinc-600 link-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+
+          <a
+            href="https://discord.gg/ffqqmk6Urt"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group link-card flex items-center gap-3 px-4 py-3 rounded-xl bg-zinc-900/20 border border-zinc-800 hover:bg-zinc-800/70 hover:border-zinc-700"
+            style="--link-color:#7289DA; --link-bg:rgba(114, 137, 218, 0.08);"
+          >
+            <div class="text-zinc-500 link-icon">
+              <i class="fa-brands fa-discord"></i>
+            </div>
+            <span class="text-zinc-300 text-sm flex-1">Discord Store</span>
+            <svg class="w-4 h-4 text-zinc-600 link-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+
+          <a
+            href="https://tiktok.com/@coderedev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group link-card flex items-center gap-3 px-4 py-3 rounded-xl bg-zinc-900/20 border border-zinc-800 hover:bg-zinc-800/70 hover:border-zinc-700"
+            style="--link-color:#FF0050; --link-bg:rgba(255, 0, 80, 0.08);"
+          >
+            <div class="text-zinc-500 link-icon">
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <span class="text-zinc-300 text-sm flex-1">TikTok</span>
+            <svg class="w-4 h-4 text-zinc-600 link-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+
+          <a
+            href="https://github.com/coderedev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group link-card flex items-center gap-3 px-4 py-3 rounded-xl bg-zinc-900/20 border border-zinc-800 hover:bg-zinc-800/70 hover:border-zinc-700"
+            style="--link-color:#8B949E; --link-bg:rgba(139, 148, 158, 0.08);"
+          >
+            <div class="text-zinc-500 link-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <span class="text-zinc-300 text-sm flex-1">GitHub</span>
+            <svg class="w-4 h-4 text-zinc-600 link-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+
+          <a
+            href="javascript:void(0)"
+            aria-disabled="true"
+            class="group flex items-center gap-3 px-4 py-3 rounded-xl opacity-40 cursor-not-allowed bg-zinc-900/50 border border-zinc-800/50"
+          >
+            <div class="text-zinc-500">
+              <i class="fas fa-store"></i>
+            </div>
+            <span class="text-zinc-300 text-sm flex-1">
+              Tebex Store
+              <span class="ml-2 text-zinc-600 text-xs">Coming Soon</span>
+            </span>
+            <svg class="w-4 h-4 text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+
+        <p class="text-center text-zinc-700 text-xs pt-4">© 2024 • All rights reserved</p>
+      </div>
+    </div>
+  </body>
+</html>
